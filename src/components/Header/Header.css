@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+}
+
+.header button {
+    background-color: rgb(21, 55, 55);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.header a {
+    color: red;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 0 30px;
+
+}
+
+.header img {
+    width: 40px;
+    border-radius: 7px;
+}
